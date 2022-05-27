@@ -2,6 +2,8 @@ const express = require("express");
 
 const app = express();
 
+app.use(express.json());
+
 // add
 
 
@@ -9,6 +11,9 @@ const app = express();
 
 
 // list
+
+
+
 
 app.listen(3333);
 

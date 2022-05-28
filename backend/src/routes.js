@@ -3,7 +3,11 @@ const ReceiverController = require("./controllers/ReceiverController.js")
 
 const routes = express.Router();
 
-// add
-routes.post('/receivers', ReceiverController.store);
+// Add receiver
+routes.post('/receiver', ReceiverController.save);
+
+// Get all receivers
+routes.get('/receiver', ReceiverController.index);
+
 
 module.exports = routes;

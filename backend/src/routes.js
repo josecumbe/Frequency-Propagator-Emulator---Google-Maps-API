@@ -1,10 +1,9 @@
 const express = require("express");
+const ReceiverController = require("./controllers/ReceiverController.js")
 
 const routes = express.Router();
 
 // add
-routes.post('/receivers', (req, res) => {
-    return res.send('Hello World2');
-});
+routes.post('/receivers', ReceiverController.store);
 
 module.exports = routes;

@@ -1,7 +1,13 @@
 const express = require("express");
 const routes = require("./routes.js")
+const mongoose = require("mongoose");
 
 const app = express();
+mongoose.connect('mongodb+srv://ggv:ggvdatabase@ggvapi.xynk9gm.mongodb.net/ggvDB?retryWrites=true&w=majority')
+
+
+
+
 
 app.use(express.json());
 app.use(routes);
@@ -9,7 +15,6 @@ app.use(routes);
 // add
 
 // remove
-ggvdatabase
 
 
 // list

@@ -3,7 +3,7 @@ const express = require("express");
 const routes = express.Router();
 
 // add
-routes.get('/', (req, res) => {
+routes.post('/receivers', (req, res) => {
     return res.send('Hello World2');
 });
 

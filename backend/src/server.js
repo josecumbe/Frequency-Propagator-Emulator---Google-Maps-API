@@ -3,7 +3,10 @@ const routes = require("./routes.js")
 const mongoose = require("mongoose");
 
 const app = express();
-mongoose.connect('mongodb+srv://ggv:ggvdatabase@ggvapi.xynk9gm.mongodb.net/ggvDB?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://ggv:ggvdatabase@ggvapi.xynk9gm.mongodb.net/ggvDB?retryWrites=true&w=majority',{
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+});
 
 
 

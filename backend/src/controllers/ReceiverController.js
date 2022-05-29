@@ -18,5 +18,18 @@ module.exports = {
     async index(req, res) {
        const receivers = await Receiver.find({});
        return res.json(receivers);
+    },
+
+    async destroy(req, res) {
+        const { receiver_id } = req.headers;
+        try {
+            const receiver = await Receiver.findById(receiver_id)
+            await receiver.remove();
+            return res.json({"message": "Removed"});
+        } catch {
+            res.status(404).json({ "ErrorMessage": "Receiver not found" });
+        }
+        
+    
     }
 }

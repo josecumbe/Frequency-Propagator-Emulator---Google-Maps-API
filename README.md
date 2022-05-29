@@ -1,4 +1,4 @@
-# Aviation Frequency transmissor map simulator 
+# Aviation Frequency Propagation Simulator
 
 This is a web-based tool that can simulate the coverage of receivers to see if there are any blind spots when deploying antennas that capture signals on frequencies emitted by aircraft transponders.
 
@@ -18,5 +18,5 @@ In order to run the application locally, it is necessary to have all libraries i
 
 To run the application in the development environment, use "yarn dev."
 
-## Access Deplyed Application
+## Access Deployed Application
 Note: This application has a live version deployed in Heroku. To access it use this link - https://aviation-simulator-frontend.herokuapp.com/ 

@@ -5,7 +5,7 @@ This is a web-based tool that can simulate the coverage of receivers by displayi
 The application was developed using Nodejs (backend) to develop the API containing all the necessary endpoints to list, add and remove receivers. It also uses ReactJs (frontend) to display the receivers in the map with their respective coverage. The UI is also used to present an admin dashboard where the user can manage the receivers. It also uses Google Maps API to locate the signals.
 
 ## Demo Video
-To see how the app works, please access the demo video using this link - https://www.loom.com/share/46eeb566b15a41da91e7bccc50d9a343
+To see how the app works, please access the demo video using this link - https://www.loom.com/share/13289bdfacbe4c8abf5a228203a7dc92
 
 ## Run App Locally
 In order to run the application locally, it is necessary to have all libraries indicated in the package.json file.

@@ -18,5 +18,3 @@ In order to run the application locally, it is necessary to have all libraries i
 
 To run the application in the development environment, use "yarn dev."
 
-## Access Deployed Application
-Note: This application has a live version deployed in Heroku. To access it use this link - https://aviation-simulator-frontend.herokuapp.com/ 
